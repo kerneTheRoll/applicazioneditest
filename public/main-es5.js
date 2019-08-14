@@ -308,7 +308,7 @@ __webpack_require__.r(__webpack_exports__);
 var EmployeService = /** @class */ (function () {
     function EmployeService(http) {
         this.http = http;
-        this.URL_API = "http://localhost:3000/api/Employe";
+        this.URL_API = "api/Employe";
     }
     EmployeService.prototype.getEmployes = function () {
         return this.http.get(this.URL_API);

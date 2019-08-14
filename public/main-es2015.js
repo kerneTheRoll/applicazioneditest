@@ -292,7 +292,7 @@ __webpack_require__.r(__webpack_exports__);
 let EmployeService = class EmployeService {
     constructor(http) {
         this.http = http;
-        this.URL_API = "http://localhost:3000/api/Employe";
+        this.URL_API = "api/Employe";
     }
     getEmployes() {
         return this.http.get(this.URL_API);
